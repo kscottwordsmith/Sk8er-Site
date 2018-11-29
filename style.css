@@ -1,0 +1,31 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/bg.jpg);
+}
+
+#subscribebar ul {
+	display:flex;
+	flex-direction: row;
+	justify-content:flex-end;
+	list-style: none;
+	color:white;
+}
+
+#justdots {
+	display:flex;
+	flex-direction: column;
+}
+
+/*#subscribebar li::before {
+	content:"\2022";
+	color:white;
+	display:inline-block;
+	width:1em;
+}*/
