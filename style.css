@@ -18,9 +18,14 @@ body {
 	color:white;
 }
 
-#justdots {
-	display:flex;
-	flex-direction: column;
+#subscribebar li {
+	margin: 0px 10px;
+	font-size:45px;
+}
+
+#facebookicon1 {
+	border-left:6px dotted white;
+	padding-left:15px;
 }
 
 /*#subscribebar li::before {
