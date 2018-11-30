@@ -14,18 +14,27 @@ body {
 	color: white;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 14px;
+	line-height: 14px; /*absolutely hacky way to get it to be more centered*/
 	padding-right: 15px;
 	position: absolute;
-	left: 70%;
-	top: 5%;
+	left: 65%;
+	top: 4%;
 }
 
-#subscribe::after {
+#subdot {
+	color:white;
+	font-size:20px;
+	position:absolute;
+	left:71%;
+	top:3.3%;
+}
+
+/*#subscribe::after {
 	content: "\2022";
 	color: white;
-	font-size: 32px;
+	font-size: 28px;
 	padding-left: 15px;
-}
+}*/
 
 #dotline {
 	height: 50px;
