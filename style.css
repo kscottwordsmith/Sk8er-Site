@@ -11,43 +11,70 @@ body {
 }
 
 #subscribe {
-	color:white;
-	/*border-right:6px dotted white;*/
-	font-family:Helvetica, Arial, sans-serif;
-	font-size:14px;
-	padding-right:15px;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	padding-right: 15px;
 	position: absolute;
-	left:70%;
-	top:5%;
+	left: 70%;
+	top: 5%;
 }
 
 #subscribe::after {
-	content:"\2022";
-	color:white;
-	width:1em;
+	content: "\2022";
+	color: white;
+	font-size: 32px;
+	padding-left: 15px;
+}
+
+#dotline {
+	height: 50px;
+	width: 0px;
+	border-left: 6px dotted white;
+	padding-top: 5px;
 }
 
 #subscribebar ul {
-	display:flex;
+	display: flex;
 	flex-direction: row;
-	justify-content:flex-end;
+	justify-content: flex-end;
 	list-style: none;
-	color:white;
+	color: rgba(255,255,255,0.5)
 }
 
 #subscribebar li {
 	margin: 0px 10px;
-	font-size:45px;
+	font-size: 30px;
 }
 
 #facebookicon1 {
-	border-left:6px dotted white;
-	padding-left:15px;
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	background-color: rgb(56, 77, 145);
+	box-shadow: 0px 5px rgb(133,133,133);
 }
 
-/*#subscribebar li::before {
-	content:"\2022";
-	color:white;
-	display:inline-block;
-	width:1em;
-}*/
+#rssicon1 {
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	background-color: rgb(208, 129, 4);
+	box-shadow: 0px 5px rgb(133,133,133);
+}
+
+#twittericon1 {
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	background-color: rgb(87, 130, 197);
+	box-shadow: 0px 5px rgb(133,133,133);
+}
+
+#youtubeicon1 {
+	width: 55px;
+	height: 55px;
+	text-align: center;
+	background-color: rgb(185, 36, 32);
+	box-shadow: 0px 5px rgb(133,133,133);
+}
