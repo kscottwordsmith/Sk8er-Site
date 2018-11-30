@@ -51,6 +51,7 @@ body {
 	width: 55px;
 	height: 55px;
 	text-align: center;
+	line-height: 55px;
 	background-color: rgb(56, 77, 145);
 	box-shadow: 0px 5px rgb(133,133,133);
 }
@@ -59,6 +60,7 @@ body {
 	width: 55px;
 	height: 55px;
 	text-align: center;
+	line-height: 55px;
 	background-color: rgb(208, 129, 4);
 	box-shadow: 0px 5px rgb(133,133,133);
 }
@@ -67,6 +69,7 @@ body {
 	width: 55px;
 	height: 55px;
 	text-align: center;
+	line-height: 55px;
 	background-color: rgb(87, 130, 197);
 	box-shadow: 0px 5px rgb(133,133,133);
 }
@@ -75,6 +78,7 @@ body {
 	width: 55px;
 	height: 55px;
 	text-align: center;
+	line-height: 55px;
 	background-color: rgb(185, 36, 32);
 	box-shadow: 0px 5px rgb(133,133,133);
 }
