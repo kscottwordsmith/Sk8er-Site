@@ -15,10 +15,13 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 14px; /*absolutely hacky way to get it to be more centered*/
+	text-transform: uppercase;
+	letter-spacing: 1px;
 	padding-right: 15px;
 	position: absolute;
-	left: 65%;
-	top: 4%;
+	left: 63%;
+	top: 4.1%;
+
 }
 
 #subdot {
@@ -29,13 +32,6 @@ body {
 	top:3.3%;
 }
 
-/*#subscribe::after {
-	content: "\2022";
-	color: white;
-	font-size: 28px;
-	padding-left: 15px;
-}*/
-
 #dotline {
 	height: 50px;
 	width: 0px;
@@ -43,12 +39,20 @@ body {
 	padding-top: 5px;
 }
 
+/*#subscribebar span {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+fix this to make it less hacky overall*/
+
 #subscribebar ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
 	list-style: none;
-	color: rgba(255,255,255,0.5)
+	color: rgba(255, 255, 255, 0.5)
 }
 
 #subscribebar li {
@@ -62,7 +66,7 @@ body {
 	text-align: center;
 	line-height: 55px;
 	background-color: rgb(56, 77, 145);
-	box-shadow: 0px 5px rgb(133,133,133);
+	box-shadow: 0px 5px rgb(133, 133, 133);
 }
 
 #rssicon1 {
@@ -71,7 +75,7 @@ body {
 	text-align: center;
 	line-height: 55px;
 	background-color: rgb(208, 129, 4);
-	box-shadow: 0px 5px rgb(133,133,133);
+	box-shadow: 0px 5px rgb(133, 133, 133);
 }
 
 #twittericon1 {
@@ -80,7 +84,7 @@ body {
 	text-align: center;
 	line-height: 55px;
 	background-color: rgb(87, 130, 197);
-	box-shadow: 0px 5px rgb(133,133,133);
+	box-shadow: 0px 5px rgb(133, 133, 133);
 }
 
 #youtubeicon1 {
@@ -89,5 +93,38 @@ body {
 	text-align: center;
 	line-height: 55px;
 	background-color: rgb(185, 36, 32);
-	box-shadow: 0px 5px rgb(133,133,133);
+	box-shadow: 0px 5px rgb(133, 133, 133);
+}
+
+#navbar ul {
+	display: flex;
+	justify-content: center;
+}
+
+#navbar li {
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style: none;
+	height: 55px;
+	width: 250px;
+	line-height: 55px;
+	background: rgb(188, 12, 34);
+	margin: 0px 10px;
+	box-shadow: 0px 5px rgb(133, 133, 133);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#navbar li::before {
+	content: "\002d";
+	margin-right: 3px;
+}
+
+#navbar li::after {
+	content: "\002d";
+	margin-left: 3px;
+	font-style: bolder;
 }
