@@ -10,6 +10,11 @@ body {
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/bg.jpg);
 }
 
+.container {
+	width: 1000px;
+	margin: auto;
+}
+
 #subscribe {
 	color: white;
 	font-family: Helvetica, Arial, sans-serif;
@@ -17,10 +22,9 @@ body {
 	line-height: 14px; /*absolutely hacky way to get it to be more centered*/
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	padding-right: 15px;
 	position: absolute;
-	left: 63%;
-	top: 4.1%;
+	left: 700px;
+	top: 35px;
 
 }
 
@@ -28,8 +32,8 @@ body {
 	color:white;
 	font-size:20px;
 	position:absolute;
-	left:71%;
-	top:3.3%;
+	left: 815px;
+	top: 30px;
 }
 
 #dotline {
@@ -52,11 +56,11 @@ fix this to make it less hacky overall*/
 	flex-direction: row;
 	justify-content: flex-end;
 	list-style: none;
-	color: rgba(255, 255, 255, 0.5)
+	color: rgba(255, 255, 255, 0.5);
 }
 
 #subscribebar li {
-	margin: 0px 10px;
+	margin-left: 10px;
 	font-size: 30px;
 }
 
@@ -112,7 +116,6 @@ fix this to make it less hacky overall*/
 	width: 250px;
 	line-height: 55px;
 	background: rgb(188, 12, 34);
-	margin: 0px 10px;
 	box-shadow: 0px 5px rgb(133, 133, 133);
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -127,4 +130,63 @@ fix this to make it less hacky overall*/
 	content: "\002d";
 	margin-left: 3px;
 	font-style: bolder;
+}
+
+#boardersnews {
+	margin-left: 12px;
+}
+
+#boarddesign {
+	margin-left: 12px;
+}
+
+#contactnews {
+	margin-left: 12px;
+}
+
+/*#carousel {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	position:relative;
+}*/
+
+#top-image {
+	height: 350px;
+	width: 1000px;
+	background-image: url(assets/top-image);
+	background-size: 1000px;
+	background-position: 35% 25%;
+	/*object-fit: none;
+	object-position: 35% 25%;
+	position:absolute;
+	border: 5px solid white;*/
+}
+
+#grid {
+	height: 350px;
+	width: 1000px;
+	object-fit: none;
+	position:absolute;
+	top:-350px;
+}
+
+#peralta-logo {
+	position:relative;
+	object-fit: fill;
+	top: -645px;
+	left: 25px;
+}
+
+#articles {
+	clear;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 280px;
+}
+
+article {
+	background: white;
+	box-shadow: 0px 5px rgb(133, 133, 133);
 }
