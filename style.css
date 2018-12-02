@@ -173,7 +173,7 @@ fix this to make it less hacky overall*/
 	flex-direction: row;
 	justify-content: space-between;
 	height: 280px;
-	min-w idth: 280px;
+	min-width: 280px;
 	margin-top: 15px;
 }
 
@@ -188,6 +188,7 @@ fix this to make it less hacky overall*/
 article {
 	background: white;
 	box-shadow: 0px 5px rgb(133, 133, 133);
+	padding: 10px;
 }
 
 .headline {
@@ -201,11 +202,32 @@ article {
 
 .articletext {
 	opacity: .7;
+	position: relative;
 }
 
-.articlelink .articlelink::visited{
-	text-align: center;
-	color: rgb(181, 61, 68);
-	font-style: bolder;
+#articlelink1 {
+	font-size: 15px;
+	color: rgb(188, 47, 51);
 	letter-spacing: 1px;
+	position: absolute;
+	top: 782px;
+	left: 259px;
+}
+
+#articlelink2 {
+	font-size: 15px;
+	color: rgb(188, 47, 51);
+	letter-spacing: 1px;
+	position: absolute;
+	top: 782px;
+	left: 610px;
+}
+
+#articlelink3 {
+	font-size: 15px;
+	color: rgb(188, 47, 51);
+	letter-spacing: 1px;
+	position: absolute;
+	top: 782px;
+	left: 953px;
 }
