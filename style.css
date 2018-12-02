@@ -154,28 +154,18 @@ fix this to make it less hacky overall*/
 #top-image {
 	height: 350px;
 	width: 1000px;
-	background-image: url(assets/top-image);
+	background: url(assets/grid.png), url(assets/top-image.png);
 	background-size: 1000px;
 	background-position: 35% 25%;
-	/*object-fit: none;
-	object-position: 35% 25%;
-	position:absolute;
-	border: 5px solid white;*/
+	position: relative;
+	border: 5px solid white;
 }
-
-#grid {
-	height: 350px;
-	width: 1000px;
-	object-fit: none;
-	position:absolute;
-	top:-350px;
-}
-
+	
 #peralta-logo {
-	position:relative;
+	position: absolute;
 	object-fit: fill;
-	top: -645px;
-	left: 25px;
+	top: 201px;
+	left: 163px;
 }
 
 #articles {
