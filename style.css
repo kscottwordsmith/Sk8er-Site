@@ -288,13 +288,24 @@ article {
 /*moving the text around onto the skaters*/
 
 .pictext {
-	position: absolute;
 	font-family: Helvetica, Arial, sans-serif;
 	color: white;
 	font-size: 35px;
+	text-align: center;
 }
 
 #bderpic1text {
-	top: 150px;
-	left: 35px;
+	padding-top: 63px;
+}
+
+#bderpic2text {
+	padding-top: 63px;
+}
+
+#bderpic3text {
+	padding-top: 63px;
+}
+
+#bderpic4text {
+	padding-top: 200px;
 }
